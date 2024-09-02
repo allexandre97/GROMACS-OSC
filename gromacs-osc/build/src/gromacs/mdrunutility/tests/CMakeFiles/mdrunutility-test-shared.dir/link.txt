@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../../lib/libmdrunutility-test-shared.a  CMakeFiles/mdrunutility-test-shared.dir/threadaffinitytest.cpp.o
-/usr/bin/ranlib ../../../../lib/libmdrunutility-test-shared.a

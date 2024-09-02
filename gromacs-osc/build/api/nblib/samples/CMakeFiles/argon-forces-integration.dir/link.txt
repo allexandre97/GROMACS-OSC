@@ -1,1 +1,0 @@
-/usr/bin/g++-7  -O3 -DNDEBUG      CMakeFiles/argon-forces-integration.dir/argon-forces-integration.cpp.o  -o ../../../bin/argon-forces-integration  -Wl,-rpath,"\$ORIGIN/../lib" ../../../lib/libnblib.so.0.1.0 -Wl,-rpath-link,/home/alexandre/Descargas/gromacs-osc/build/lib 
