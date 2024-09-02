@@ -1,0 +1,11 @@
+libdir=/usr/local/gromacs-osc/lib
+
+Name: libgromacs_osc
+Description: Gromacs library
+URL: http://www.gromacs.org
+Version: 2021.5
+Requires: fftw3f 
+Libs.private: -pthread  
+Libs: -L${libdir} -lgromacs_osc  -lm
+Cflags:  -I/usr/local/gromacs-osc/include -DGMX_DOUBLE=0 -fopenmp
+

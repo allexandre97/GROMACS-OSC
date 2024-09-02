@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -O3 -DNDEBUG      CMakeFiles/methane-water-integration.dir/methane-water-integration.cpp.o  -o ../../../bin/methane-water-integration  -Wl,-rpath,"\$ORIGIN/../lib" ../../../lib/libnblib.so.0.1.0 -Wl,-rpath-link,/home/alexandre/Descargas/gromacs-osc/build/lib 

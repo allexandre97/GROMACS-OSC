@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alexandre/Descargas/gromacs-osc/src/external/lmfit/lmmin.cpp
+assert.h
+-
+stdlib.h
+-
+stdio.h
+-
+math.h
+-
+float.h
+-
+lmmin.h
+/home/alexandre/Descargas/gromacs-osc/src/external/lmfit/lmmin.h
+
+/home/alexandre/Descargas/gromacs-osc/src/external/lmfit/lmmin.h
+lmstruct.h
+/home/alexandre/Descargas/gromacs-osc/src/external/lmfit/lmstruct.h
+
+/home/alexandre/Descargas/gromacs-osc/src/external/lmfit/lmstruct.h
+stdio.h
+-
+
