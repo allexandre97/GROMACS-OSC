@@ -23,7 +23,7 @@ If this is the case, you will need to modify the line ```module load [...]``` wi
 ### If your environment does NOT use SLURM
 You can completely remove the ```module load [...]``` line. You have to make sure, then, that your machine has the compiler tools needed to build GROMACS 2025. If you plan to use MPI parallelization, that means that you will need [cmake](https://cmake.org/) and [mpicc](https://www.mpich.org/). If you are not using MPI, you can still use cmake with [gcc/g++](https://gcc.gnu.org/).
 
-##How to cite
+## How to cite
 If you use this code for any work or publication, please cite:
 
 * Blanco-González, A., Marrink, S. J., Piñeiro, Á., & García-Fandiño, R. **(2023)**. Molecular insights into the effects of focused ultrasound mechanotherapy on lipid bilayers: Unlocking the keys to design effective treatments. *Journal of Colloid and Interface Science*, *650*, 1201-1210.
