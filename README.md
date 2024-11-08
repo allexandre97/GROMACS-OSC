@@ -28,3 +28,5 @@ If you use this code for any work or publication, please cite:
 
 * Blanco-González, A., Marrink, S. J., Piñeiro, Á., & García-Fandiño, R. **(2023)**. Molecular insights into the effects of focused ultrasound mechanotherapy on lipid bilayers: Unlocking the keys to design effective treatments. *Journal of Colloid and Interface Science*, *650*, 1201-1210.
 * Blanco-González, A. **(2023)**, GROMACS-OSC [Software]. GitHub: [https://github.com/allexandre97/GROMACS-OSC](https://github.com/allexandre97/GROMACS-OSC)
+
+Of course, please also cite the original GROMACS code!
