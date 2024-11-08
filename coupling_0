@@ -846,7 +846,7 @@ void berendsen_pcoupl(FILE*             fplog,
 
     /* Calculate pressure associated with sin wave */
     double  nu = 4*FREQE6; /*Frequency in Hz*/
-    double  p  = 35.0; /*Max Pressure in bar*/
+    double  p  = AMPL; /*Max Pressure in bar*/
     nu         = nu/1E12; /*Translate frequency to time units*/
     
     double Psin;
