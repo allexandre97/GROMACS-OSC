@@ -34,7 +34,7 @@ done
 module load cesga/2020 gcc/system openmpi/4.1.4_ft3
 
 # First substitute FREQ
-sed "s/FREQ/${FREQ}/g" ./gromacs-osc/src/gromacs/mdlib/coupling_0 > ./gromacs-osc/src/gromacs/mdlib/coupling_tmp
+sed "s/FREQ/${FREQ}/g" ./coupling_0 > ./gromacs-osc/src/gromacs/mdlib/coupling_tmp
 
 # Then substitute AMPL
 sed "s/AMP/${AMPL}/g" ./gromacs-osc/src/gromacs/mdlib/coupling_tmp > ./gromacs-osc/src/gromacs/mdlib/coupling.cpp
